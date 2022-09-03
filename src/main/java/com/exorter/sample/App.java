@@ -1,4 +1,4 @@
-package com.communication.quickstart;
+package com.exorter.sample;
 
 import com.azure.core.http.HttpClient;
 import com.azure.core.http.ProxyOptions;

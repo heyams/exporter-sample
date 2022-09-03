@@ -1,4 +1,4 @@
-package com.communication.quickstart;
+package com.exorter.sample;
 
 import static org.junit.Assert.assertTrue;
 
