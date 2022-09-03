@@ -19,6 +19,7 @@ public class App {
     public static void main(String[] args) throws Exception {
         System.out.println("Export Telemetry via Azure Monitor OpenTelemetry Exporter");
 
+        // use proxy
         ProxyOptions proxyOptions = new ProxyOptions(ProxyOptions.Type.HTTP, new InetSocketAddress("localhost", 8888));
 
         HttpClient nettyHttpClient = new NettyAsyncHttpClientBuilder()
