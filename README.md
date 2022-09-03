@@ -9,6 +9,10 @@ A simple app is used to test Azure Monitor OpenTelemetry Exporter
 
 ### Running the app:
 
+```
+export CONNECTION_STRING={your_connection_string}
+```
+
 `mvn exec:java -Dexec.mainClass="com.communication.quickstart.App" -Dexec.cleanupDaemonThreads=false`
 
 ### Install a local jar to maven local
