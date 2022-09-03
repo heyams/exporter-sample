@@ -20,11 +20,11 @@
             <version>4.11</version>
             <scope>test</scope>
         </dependency>
-<!--        <dependency>-->
-<!--            <groupId>com.azure</groupId>-->
-<!--            <artifactId>azure-communication-identity</artifactId>-->
-<!--            <version>1.0.0</version>-->
-<!--        </dependency>-->
+        <dependency>
+            <groupId>com.azure</groupId>
+            <artifactId>azure-communication-identity</artifactId>
+            <version>1.0.0</version>
+        </dependency>
         <dependency>
             <groupId>com.azure</groupId>
             <artifactId>azure-monitor-opentelemetry-exporter</artifactId>
