@@ -15,6 +15,8 @@ export CONNECTION_STRING={your_connection_string}
 
 `mvn exec:java -Dexec.mainClass="com.communication.quickstart.App" -Dexec.cleanupDaemonThreads=false`
 
+and then use [Fiddler](https://www.telerik.com/fiddler) to examine payload.
+
 ### Install a local jar to maven local
 
 ```
